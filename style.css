@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: inherit;
+}
+header ul li{
+    list-style: none;
+    padding-right: 30px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+header ul li a:hover{
+    background-color: red;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.logo h1{
+    color: #ebc573;
+    font-size: 25px;
+}
+.logo img{
+    height: 65px;
+}
+.main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.main1{
+    width: 60%;
+    height: 100%;
+    padding-top: 40px;
+}
+.main1 h1{
+    font-size: 50px;
+    color: #e8c573;
+    font-weight: 900;
+    font-style: italic;
+}
+.title1{
+    font-size: 30px;
+    color: whitesmoke;
+}
+.title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #e8c573;
+}
+.underline{
+    height: 1px;
+    width: 6%;
+    margin-top: 50px;
+    background-color: #e8c573;
+}
+.main1 p{
+    width: 80%;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.btn{
+    font-weight: 500;
+    border: 1px solid #f2d280;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 7px 25px;
+    border-radius: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 3px solid #544115;
+    color: black;
+    background: linear-gradient(#efd6b2,#e8c573);
+}
+.right{
+    width: 50%;
+    height: 100%;   
+}
+.right img{
+    width: 500px;
+    transition: all 0.5s ease;
+}
+.subpics{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.subpics img{
+    width: 80px;
+    cursor: pointer;
+    margin: 18px 0;
+}
+.subpics img:hover{
+    transform: translateY(-5px);
+}

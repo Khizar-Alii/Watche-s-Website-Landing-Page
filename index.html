@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page | ProgrammingWithKhiZi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./logo.png" alt="logo" />
+        <h1>WATCH <span>es</span></h1>
+      </div>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Gallery</a></li>
+        <li><a href="/">Product</a></li>
+        <li><a href="/">Contact Us</a></li>
+      </ul>
+    </header>
+    <section class="main">
+      <div class="main1">
+        <span class="title1">New Collection</span>
+        <h1>Luxury Watch</h1>
+        <span class="title">Best product Ever in Season</span>
+        <br />
+        <div class="underline"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+          quidem provident harum eius? Nihil unde ipsum cupiditate nesciunt
+          autem ullam est atque temporibus aliquid commodi ab, mollitia hic
+          sequi debitis? Ratione reprehenderit commodi incidunt sint quam vitae
+          accusamus dolores facere dolore deserunt, hic quasi quo expedita
+          maiores quidem rerum quisquam.
+        </p>
+        <button class="btn">Shop Now</button>
+      </div>
+      <section class="right">
+        <img id="image" src="./1.jpg" alt="img" />
+      </section>
+      <section class="subpics">
+        <img src="./1.jpg" onclick="updateimage('1.jpg')" />
+        <img src="./2.jpg" onclick="updateimage('2.jpg')" />
+        <img src="./3.jpg" onclick="updateimage('3.jpg')" />
+      </section>
+    </section>
+    <script>
+      function updateimage(bhu) {
+        document.getElementById("image").src = bhu;
+      }
+    </script>
+  </body>
+</html>
